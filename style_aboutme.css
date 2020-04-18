@@ -1,0 +1,51 @@
+h1 {
+    color: red;
+    background-color: black;
+}
+
+#myphoto {
+    float: left;
+}
+
+section p {
+    font-family: cursive;
+    color: blue;
+    background-color: pink;
+}
+
+#id1{
+    font-size: 25px;
+    font-family: cursive;
+    color: orangered;
+    background-color: powderblue;
+    text-align: center;
+    box-shadow: blue 3px 3px 8px;
+}
+
+.photos {
+    width: 300px;
+    height: 180px;
+    margin: 4px;
+    transition: all 1s;
+}
+
+.photos:hover {
+    transform: scale(1.1);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+a:hover {
+    color: green;
+}

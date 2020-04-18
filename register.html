@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>register</title>
+</head>
+
+
+<body>
+
+<a href="index.html">click here to go back to the main page</a><br>
+
+<!-- use GET, not POST -->
+<div>
+    <form method="GET">
+        <span>first name:</span> <input type="text" name="firstname"><br>
+        Enter last name :<input type="text" name="lastname"><br>
+        Date of Birth: <input type="date" name="birthday"><br>
+        Gender:  <input type="radio" name="gender" value="male">Male  <input type="radio" name="gender" value="female">Female  <input type="radio" name="gender" value="others">Others<br>
+        Enter your email id: <input type="email" name="email" required><br>
+        Password: <input type="password" name="password" min="8"><br>
+        
+        Do you like: 
+        <input type="checkbox" name="football">Football<br>
+        <input type="checkbox" name="cricket">Cricket<br>
+        <input type="checkbox" name="swimming">Swiming<br>
+        <input type="checkbox" name="cycling">Cycling<br>
+
+        university: <select name="university">
+            <option value="MAKAUT">MAKAUT</option><br>
+            <option value="IEM">IEM</option><br>
+            <option value="JIS">JIS</option><br>
+        </select><br>
+
+        <input type="submit" value="register">
+        <input type="reset">
+    </form>
+</div>
+
+</body>
+
+</html>

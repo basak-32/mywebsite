@@ -1,0 +1,26 @@
+/* selector {
+    property: value;
+} */
+
+body{
+    background-image: url(backgroundimage.jpg);
+    background-size: cover;
+}
+
+p{
+    color: rgb(236, 236, 241);
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    border: 5px dashed purple;
+}
+
+a {
+    color: rgba(255, 99, 71, 0.89);
+}
+
+a:hover{
+    color: white;
+}
